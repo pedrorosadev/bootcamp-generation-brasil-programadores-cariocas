@@ -18,6 +18,13 @@ programa
 			escreva("\n"+(i+1)+"ª Pontuação: ")
 			leia(pontuacao[i])
 
+			//Encontra o maior valor da matriz
+			se(pontuacao[i] > maiorPontuacao){
+				maiorPontuacao = pontuacao[i]
+			}
+			
+			//Mostra os dados que o usuário entrou
+			/*
 			se(i == 5){
 				para(j = 0; j < 5; j++){
 					limpa()
@@ -25,13 +32,11 @@ programa
 					escreva("\n" + pontuacao[i])
 				  }
 				}
-			}	
-		//Mostra os dados que o usuário entrou
+				*/
+				
+		}
 		
-
-		
-		
-		
+		escreva("\nMaior Pontuação: ", maiorPontuacao)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -39,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 487; 
+ * @POSICAO-CURSOR = 840; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
