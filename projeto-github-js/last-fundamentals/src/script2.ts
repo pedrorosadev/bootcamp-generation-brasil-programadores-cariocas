@@ -20,3 +20,13 @@ cardapio['Refrigerente'] = 6;
 cardapio['Batata Frita'] = 5;
 
 console.log(cardapio['Hamburguer']);
+
+const vetor2 = vetor.map((item)=>{
+    return item * 2;
+});
+
+let media = (nota1: number, nota2: number) => {
+    (nota1 + nota2) / 2;
+}
+
+media(7, 6);
