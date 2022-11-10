@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
@@ -14,12 +15,16 @@
         <nav>
             <ul>
                 <a href="index.html">
-                    <li>Home</li>
+                    <li class="nav-button">Home</li>
                 </a>
 
                 <a href="contato.html">
-                    <li>Contato</li>
+                    <li class="nav-button">Contato</li>
                 </a> 
+
+                <a href="tabela.html">
+                    <li class="nav-button">Tabela</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -29,21 +34,21 @@
     
     <!--Corpo principal do site-->
     <main>
-        <section>
+        <section class="container">
             <div>
-                <h1>Pedro Rosa</h1>
-                <p>
+                <h1 id="titulo">Pedro Rosa</h1>
+                <p class="texto">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis perspiciatis animi mollitia, illo ducimus est quibusdam cum id nihil autem aperiam? Minus voluptatem provident delectus, suscipit vel saepe voluptate blanditiis.
                 </p>
-                <p>
+                <p class="texto">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis perspiciatis animi mollitia, illo ducimus est quibusdam cum id nihil autem aperiam? Minus voluptatem provident delectus, suscipit vel saepe voluptate blanditiis.
                 </p>
-                <p>
+                <p class="texto mb-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur totam adipisci libero rem, ipsam optio voluptates quas laboriosam ducimus ex, ullam, eveniet provident? Vitae quae pariatur suscipit blanditiis laudantium!
                 </p>
             </div>
             <div>
-                <img width="300" src="https://cdn.pixabay.com/photo/2022/05/19/19/09/avocado-7207993_1280.jpg" alt="Ilustration: Avocado">
+                <img class="photo" src="https://cdn.pixabay.com/photo/2022/05/19/19/09/avocado-7207993_1280.jpg" alt="Ilustration: Avocado">
             </div>
         </section>
     </main>
@@ -54,11 +59,11 @@
     <footer>
         <div>
             <a target="_blank" href="https://www.linkedin.com/in/pedro-rosa19">
-                <img width="50" src="assets\images\linkedin.png" alt="Icon: LinkedIn">
+                <img class="social" src="assets\images\linkedin.png" alt="Icon: LinkedIn">
             </a>
 
             <a target="_blank" href="https://github.com/pedrorosadev">
-                <img width="32" src="assets\images\github.png" alt="Icon: Github">
+                <img class="social" src="assets\images\github.png" alt="Icon: Github">
             </a>
         </div>
     </footer>

@@ -1,0 +1,78 @@
+/*
+Seletores
+
+* - Universal ( Tudo )
+Tag HTML
+#id - ID de uma tag HTML
+.class - 
+*/
+
+*{
+    margin:0px;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.container > div {
+    width: 300px;
+}
+
+@media(max-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+#titulo{
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #f00;
+    padding: 10px;
+    margin: 10px;
+}
+
+.texto{
+    font-size: larger;
+}
+
+.texto:hover{
+    background-color: #333;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.social{
+    width: 30px;
+}
+
+.photo{
+    width: 100%;
+}
+
+.nav-button{
+    margin: 10px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.nav-button:hover{
+    background-color: red;
+    color: white;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    display: none;
+}
